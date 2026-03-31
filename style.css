@@ -1,19 +1,19 @@
 html{
      font-size: 18px ;
+     text-align: center
 }
 body{
-    text-align: center;
     color: #1b5e20;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #index{
-    background-color: #f1f8e9;
+    background-color:#e8f5e9;
 }
 #services{
     background-color: #e8f5e9;
 }
 #team{
-    background-color: #f0f4c3;
+    background-color:#e8f5e9;
 }
 
 .link{
@@ -27,6 +27,7 @@ body{
 h1{
       color: #099d4e;
       text-decoration:underline;
+      font-size: 2rem;
 }
 .service-item{
     padding: 1.4rem;
@@ -35,15 +36,22 @@ h1{
 .service-item:hover{
     box-shadow: inset 0px 2px 5px rgba(221, 98, 194,0.5);
     color:  #73c99b;
-};  
-.table{
-    padding: 1.25rem;
+}
+table,
+tr,
+td,
+th{
+    border: 0.1rem solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td{
+    padding:0.8rem;
+}
+table{
+    margin: 2rem auto;
+}
    
-}
-thead{
-    text-decoration: underline ;
-    font-size: 1.4rem;
-}
 .btn{
     background-color: #549458;
     color: white;   
@@ -57,6 +65,10 @@ a{
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
+}
+p{
+    font-size:1.2rem;
+    line-height: 1.8;
 }
 
 
